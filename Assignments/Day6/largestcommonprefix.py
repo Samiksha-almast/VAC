@@ -10,4 +10,4 @@ def longestCommonPrefix(str: list[str]) -> str:
         if first[i]!=last[i]:
             return"".join(ans)
         ans.append(first[i])
-        return"".join(ans)
+    return"".join(ans)
